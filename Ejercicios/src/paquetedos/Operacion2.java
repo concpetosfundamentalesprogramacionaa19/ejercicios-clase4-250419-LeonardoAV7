@@ -9,8 +9,10 @@ package paquetedos;
  *
  * @author Leonardo Aguilar
  */
-public class Operacion {
-    // Declara una variable estatica
-    public static String mensaje = "Usted esta aprobado con ";
+public class Operacion2 {
+    public static String mensaje = "Usted esta aprobado ";
     public static String mensaje2 = "Usted esta reprobado con ";
+    public static String mensaje3 = "(excelente) con";
+    public static String mensaje4 = "(muy bueno) con";
+    public static String mensaje5 = "(regular) con";
 }

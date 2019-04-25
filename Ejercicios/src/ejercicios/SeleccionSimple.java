@@ -9,7 +9,7 @@ import java.util.Scanner;
 import paquetedos.Operacion;
 /**
  *
- * @author Junior Aguilar
+ * @author Leonardo Aguilar
  */
 public class SeleccionSimple {
     public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class SeleccionSimple {
             System.out.printf("%s %d\n", miMensaje, calificacion_2 );
         }
         
-        
+             
     } 
     
 }

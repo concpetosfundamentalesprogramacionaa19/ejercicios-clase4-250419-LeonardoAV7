@@ -9,19 +9,21 @@ import java.util.Scanner;
 import paquetedos.Operacion;
 /**
  *
- * @author Junior Aguilar
+ * @author Leonardo Aguilar
  */
 public class SeleccionDoble {
     public static void main(String[] args) {
+        // Metodo principal
         
         Scanner entrada = new Scanner(System.in);
         
+        // Declaramos las variables
         String miMensaje = Operacion.mensaje;
         String miMensaje2 = Operacion.mensaje2;
         int calificacion;
         int calificacion_2;
         
-        // Ingresamos por teclado la primera nota
+        // Ingresamos por teclado la primera calificacion
         System.out.println("Ingrese su calificacion 1: ");
         calificacion = entrada.nextInt();
         
@@ -31,7 +33,7 @@ public class SeleccionDoble {
             System.out.printf("%s %d\n",miMensaje2, calificacion );
         }
         
-        // Ingresamos por teclado la segunda nota
+        // Ingresamos por teclado la segunda calificacion 
         System.out.println("Ingrese su calificacion 2: ");
         calificacion_2 = entrada.nextInt();
         
