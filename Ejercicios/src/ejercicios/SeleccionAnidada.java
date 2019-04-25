@@ -30,10 +30,12 @@ public class SeleccionAnidada {
             System.out.printf("%s%s %d\n",miMensaje,miMensaje3, calificacion );
         }else{
             if (calificacion < 90 && calificacion >= 80){
-                System.out.printf("%s%s %d\n",miMensaje,miMensaje4, calificacion );
+                System.out.printf("%s%s %d\n",miMensaje,miMensaje4,
+                        calificacion );
             }else{
                 if (calificacion < 80 && calificacion >= 50){
-                    System.out.printf("%s%s %d\n",miMensaje,miMensaje5, calificacion );
+                    System.out.printf("%s%s %d\n",miMensaje,miMensaje5,
+                            calificacion );
                 }else{
                     System.out.printf("%s %d\n",miMensaje2, calificacion );
                 }
